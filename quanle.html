@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            animation: slideDown 1s;
+        }
+        @keyframes slideDown {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .profile-img:hover {
+            transform: scale(1.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+            color: #388E3C;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Giới Thiệu Về Bản Thân</h1>
+        <img src="https://image.cnbcfm.com/api/v1/image/101317308-show-thumb-sharktank-1600x900.jpg?v=1532631189&w=720&h=405">
+        
+       
+        <div class="section">
+            <h2>Thông Tin Cá Nhân</h2>
+            <p>Xin chào! Tôi là Lê Mạnh Quân, một học sinh học tại Lớp 12A1. Tôi sinh ra và lớn lên tại Hải Hòa, Nghi Sơn, Thanh Hóa.</p>
+        </div>
+        <div class="section">
+            <h2>Công Việc Mơ Ước</h2>
+            <p>Tôi có một niềm đam mê với công việc Trader. Tôi đang tìm hiểu về mảng blockchain để tạo ra một web giống SUN CHIẾN THẮNG.</p>
+        </div>
+        <div class="section">
+            <h2>Sở Thích</h2>
+            <p>Khi rảnh rỗi, tôi thích đọc sách, nghe nhạc và khám phá những công nghệ mới. Ngoài ra, tôi cũng yêu thích du lịch để tìm kiếm cảm hứng sáng tạo.</p>
+        </div>
+        <div class="section">
+            <h2>Thư Viện Ảnh Yêu Thích</h2>
+            <div class="gallery">
+                <img src="https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645.jpg" alt="Hình ảnh 1">
+                <img src="https://photo.znews.vn/w660/Uploaded/mdf_eioxrd/2021_07_06/2.jpg" alt="Hình ảnh 2">
+                <img src="https://d1hjkbq40fs2x4.cloudfront.net/2016-01-31/files/1045.jpg" alt="Hình ảnh 3">
+                <img src="https://kenh14cdn.com/203336854389633024/2022/12/23/photo-8-1671781355354410729114.jpg" alt="Hình ảnh 4">
+                <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2019/11/15/766184/Anh3.jpg" alt="Hình ảnh 5">
+                <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2021/5/26/913299/Ngan-Ha25.jpg" alt="Hình ảnh 6">
+            </div>
+        </div>
+        <div class="contact">
+            <h2>Liên Hệ</h2>
+            <p>Email: <a href="mailto:lemanhquan792007@gmail.com">lemanhquan792007@gmail.com</a></p>
+            <p>Điện thoại: <a href="tel:+84365832936">+84 365832936</a></p>
+        </div>
+    </div>
+</body>
+</html>
+KÍ TÊN QUÂN LÊ ( SWAN )
